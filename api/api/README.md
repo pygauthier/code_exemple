@@ -1,0 +1,8 @@
+-# API
+-
+-This directory contains your API files.
+-API option is implemented in the Nuxt.js framework.
+-
+-
+-More information about the usage of this directory in [the documentation](https://github.com/nejdetkadir/nuxt-mongodb-crud).
+-

@@ -1,0 +1,12 @@
+[standalone_validator]: script pour tester une view django en mode shell_plus à des fins de debug
+cette view est la pour valider les règles d'affaire de base des documents de vente de notre système.
+ 
+[edi]: Module Python pour "parler" avec le MSSSS et ses CI(U)SSS pour automatisé les commandes de matériel et leur facturation
+https://www.edibasics.com/what-is-edi/
+ 
+[nuxt-firebase-serverless-site]: Exemple de site avec nuxt(Vuejs) et firebase, conçu pour être déployé en mode "serverless", googleApp.
+ 
+[api]: Modules d'api écrit en JS ainsi que le connecteur frontend.
+ 
+ 
+Vous comprendrais que plusieurs morceaux de code ont été supprimé.
