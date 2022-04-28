@@ -7,6 +7,8 @@ https://www.edibasics.com/what-is-edi/
 [nuxt-firebase-serverless-site]: Exemple de site avec nuxt(Vuejs) et firebase, conçu pour être déployé en mode "serverless", googleApp.
  
 [api]: Modules d'api écrit en JS ainsi que le connecteur frontend.
- 
+
+[django_microsoft_auth]: Microsoft Account and Office 365 authentication Fork, repo modifié pour ajouter le refresh token dans Django ainsi que les informations nécessaire pour avoir accès au envoie de courriel. 
+https://github.com/pygauthier/django_microsoft_auth
  
 Vous comprendrais que plusieurs morceaux de code ont été supprimé.
