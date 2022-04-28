@@ -1,0 +1,201 @@
+/* Barlow */
+
+
+@font-face {
+    font-family: 'Barlow', sans-serif;
+    src:  url('../../assets/fonts/barlow/Barlow-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Barlow', sans-serif;
+    src:  url('../../assets/fonts/barlow/Barlow-Medium.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Barlow', sans-serif;
+    src:  url('../../assets/fonts/barlow/Barlow-Regular.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+.font-medium-weight{
+    font-weight: 700 !important;
+}
+.font-bold-weight{
+    font-weight: 900 !important;
+}
+
+
+/* General */ 
+
+/******************************* REPLACER LES FONT SIZE DANS LES COMPONENTS ET PAGES ************************/
+body{
+    color: #333333;
+}
+h1{font-size: 32px;}
+h2{font-size: 28px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+h5{font-size: 18px;}
+h6{font-size: 16px;}
+p{
+    font-size: $--regular-font;
+}
+
+
+/* Header */
+.header-container{
+    #header-incognito,#header-user{
+        font-size: 22px;
+    }
+    #header-dropdown {
+        font-size: $--x-small-font;
+    }
+    .fa-search{
+        font-size: 25px;
+    }
+    .fa-times-circle{
+        font-size: 25px;
+    }
+    .fa-bell{
+        font-size: 26px;
+    }
+    #header-mode-client{
+        .fa-ghost{
+            font-size: 35px;      
+        }
+        p{
+            font-size: 11px;
+        }
+    }
+
+}
+
+/* Footer */
+#circulaire {
+    font-size: 10px;
+}
+#circulaire-pdf {
+    font-size: $--x-small-font;
+}
+
+
+
+/*** MAIN PAGE PRODUITS ***/
+#produit-table{
+    .el-icon-view{
+        font-size: 18px;
+        cursor: pointer;
+        &:hover{
+            color: darkblue;
+        }
+    }
+}
+/*** PAGE PRODUITS ***/
+.item-grp-sku{
+    p{
+        font-size: $--x-small-font;
+    }
+}
+.fa-th-large,.fa-list-ul{
+    font-size: 20px;
+}
+.item-dage-desc{
+    font-size:$--large-font ;
+}
+.item-page-cat{
+    p{
+        font-size: $--small-font;
+    }
+
+}
+.item-page-incognito{
+    font-size: 25px;
+}
+.item-disp-inv{
+    font-size: $--x-small-font;
+}
+
+
+/*** TABLEAU DE BORD PAGE ***/
+.docu-recent-docnum,.docu-recent-name,.docu-recent-amount{
+    font-size: $--x-small-font;
+}
+.docu-recent-title{
+    font-size: $--small-font;
+    font-weight: 700;
+}
+#voir-liquidations {
+    a{
+        font-size: $--small-font;
+    }
+}
+.rotate-exchange-icon {
+    font-size: 20px;
+}
+/* liquidationCard */
+.liquid-card-desc,.liquid-card-sku{
+    font-size: $--x-small-font;
+    color: #a1a1a1;
+}
+.liquid-card-tag{
+    font-size: $--x-small-font;
+}
+.liquid-card-view {
+    font-size: 20px;
+}
+
+/*** Client Main PAGE ***/
+#client-table{
+    .el-icon-document-add {
+        font-size: 32px;
+    }
+}
+
+/*** ClientID PAGE ***/
+
+
+/* addressCard */ 
+.modif-font{
+    font-size: $--x-small-font;
+}
+
+/* ClientInfoBox */
+.info-box-inner-table{
+    font-size: $--regular-font;
+}
+
+
+/*** Nouveau Document PAGE ***/
+#new-doc-step2{
+    p{
+        font-size: $--large-font;
+    }
+    a{
+        font-size: $--x-small-font;
+    }
+}
+#new-doc-address-modal{
+    .el-icon-edit{
+        font-size: 22px;
+    }
+    .new-doc-add-address-btn {
+        font-size: 24px;
+    }
+}
+.new-doc-modal-address-info{
+    p{
+        font-size: 20px;
+    }
+}
+
+
+/*** Documents Main PAGE ***/
+#document-table{
+    .el-icon-star-on{
+        font-size: 32px;
+    }
+}

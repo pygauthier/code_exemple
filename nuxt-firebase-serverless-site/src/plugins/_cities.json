@@ -1,0 +1,3839 @@
+{
+  "kml": {
+    "-xmlns": "http://www.opengis.net/kml/2.2",
+    "Document": {
+      "name": "ETS2 / ATS Cities",
+      "description": "All (marked) cities from Euro Truck Simulator 2 and American Truck Simulator.<br><br>Both games (c) SCS Software<br><br>See also this map about map coverage:<br>https://www.google.com/maps/d/viewer?hl=en&mid=1QIxmWHcwm0vTvZmrYmHBtnRysb8xdyG1",
+      "Style": [
+        {
+          "-id": "icon-1899-0288D1-nodesc-normal",
+          "IconStyle": {
+            "color": "ffd18802",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-0288D1-nodesc-highlight",
+          "IconStyle": {
+            "color": "ffd18802",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-0F9D58-nodesc-normal",
+          "IconStyle": {
+            "color": "ff589d0f",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-0F9D58-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff589d0f",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-1A237E-nodesc-normal",
+          "IconStyle": {
+            "color": "ff7e231a",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-1A237E-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff7e231a",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-3949AB-nodesc-normal",
+          "IconStyle": {
+            "color": "ffab4939",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-3949AB-nodesc-highlight",
+          "IconStyle": {
+            "color": "ffab4939",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-757575-nodesc-normal",
+          "IconStyle": {
+            "color": "ff757575",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-757575-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff757575",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-880E4F-nodesc-normal",
+          "IconStyle": {
+            "color": "ff4f0e88",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-880E4F-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff4f0e88",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-A52714-nodesc-normal",
+          "IconStyle": {
+            "color": "ff1427a5",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-A52714-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff1427a5",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-AFB42B-nodesc-normal",
+          "IconStyle": {
+            "color": "ff2bb4af",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-AFB42B-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff2bb4af",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-E65100-nodesc-normal",
+          "IconStyle": {
+            "color": "ff0051e6",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-E65100-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff0051e6",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-FBC02D-nodesc-normal",
+          "IconStyle": {
+            "color": "ff2dc0fb",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-FBC02D-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff2dc0fb",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-FF5252-nodesc-normal",
+          "IconStyle": {
+            "color": "ff5252ff",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-FF5252-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff5252ff",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-FFD600-nodesc-normal",
+          "IconStyle": {
+            "color": "ff00d6ff",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "0" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        },
+        {
+          "-id": "icon-1899-FFD600-nodesc-highlight",
+          "IconStyle": {
+            "color": "ff00d6ff",
+            "scale": "1",
+            "Icon": { "href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png" },
+            "hotSpot": {
+              "-x": "32",
+              "-xunits": "pixels",
+              "-y": "64",
+              "-yunits": "insetPixels"
+            }
+          },
+          "LabelStyle": { "scale": "1" },
+          "BalloonStyle": {
+            "text": "<h3>$[name]</h3>"
+          }
+        }
+      ],
+      "StyleMap": [
+        {
+          "-id": "icon-1899-0288D1-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-0288D1-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-0288D1-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-0F9D58-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-0F9D58-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-0F9D58-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-1A237E-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-1A237E-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-1A237E-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-3949AB-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-3949AB-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-3949AB-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-757575-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-757575-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-757575-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-880E4F-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-880E4F-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-880E4F-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-A52714-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-A52714-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-A52714-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-AFB42B-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-AFB42B-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-AFB42B-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-E65100-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-E65100-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-E65100-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-FBC02D-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-FBC02D-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-FBC02D-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-FF5252-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-FF5252-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-FF5252-nodesc-highlight"
+            }
+          ]
+        },
+        {
+          "-id": "icon-1899-FFD600-nodesc",
+          "Pair": [
+            {
+              "key": "normal",
+              "styleUrl": "#icon-1899-FFD600-nodesc-normal"
+            },
+            {
+              "key": "highlight",
+              "styleUrl": "#icon-1899-FFD600-nodesc-highlight"
+            }
+          ]
+        }
+      ],
+      "Folder": [
+        {
+          "name": "ETS2",
+          "Placemark": [
+            {
+              "name": "Aberdeen",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -2.09427800000003,57.149717,0
+          "
+              }
+            },
+            {
+              "name": "Edinburgh",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -3.188267,55.953252,0
+          "
+              }
+            },
+            {
+              "name": "Glasgow",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -4.25180599999999,55.864237,0
+          "
+              }
+            },
+            {
+              "name": "Carlisle",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -2.93293100000005,54.892473,0
+          "
+              }
+            },
+            {
+              "name": "Newcastle upon Tyne",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -1.61778000000004,54.978252,0
+          "
+              }
+            },
+            {
+              "name": "Liverpool",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -2.99157260000004,53.4083714,0
+          "
+              }
+            },
+            {
+              "name": "Manchester",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -2.24263050000002,53.4807593,0
+          "
+              }
+            },
+            {
+              "name": "Sheffield",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -1.47008500000004,53.381129,0
+          "
+              }
+            },
+            {
+              "name": "Grimsby",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -0.0807839999999942,53.567471,0
+          "
+              }
+            },
+            {
+              "name": "Swansea",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -3.94364599999994,51.62144,0
+          "
+              }
+            },
+            {
+              "name": "Cardiff",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -3.17908999999997,51.481581,0
+          "
+              }
+            },
+            {
+              "name": "Plymouth",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -4.14265649999993,50.3754565,0
+          "
+              }
+            },
+            {
+              "name": "Southampton",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -1.40435090000005,50.9097004,0
+          "
+              }
+            },
+            {
+              "name": "London",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -0.127758299999982,51.5073509,0
+          "
+              }
+            },
+            {
+              "name": "Cambridge",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            0.121816999999965,52.205337,0
+          "
+              }
+            },
+            {
+              "name": "Birmingham",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            -1.890401,52.486243,0
+          "
+              }
+            },
+            {
+              "name": "Dover",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            1.31340269999998,51.1278758,0
+          "
+              }
+            },
+            {
+              "name": "Felixstowe",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            1.35125500000004,51.961726,0
+          "
+              }
+            },
+            {
+              "name": "Groningen",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            6.56650179999997,53.2193835,0
+          "
+              }
+            },
+            {
+              "name": "Amsterdam",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            4.89516789999993,52.3702157,0
+          "
+              }
+            },
+            {
+              "name": "Rotterdam",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            4.4777325,51.9244201,0
+          "
+              }
+            },
+            {
+              "name": "Brussels",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            4.35171030000004,50.8503396,0
+          "
+              }
+            },
+            {
+              "name": "Liège",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            5.57966620000002,50.6325574,0
+          "
+              }
+            },
+            {
+              "name": "Luxembourg City",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            6.13193460000002,49.611621,0
+          "
+              }
+            },
+            {
+              "name": "Calais",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            1.85868600000003,50.95129,0
+          "
+              }
+            },
+            {
+              "name": "Paris",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            2.35222190000002,48.856614,0
+          "
+              }
+            },
+            {
+              "name": "Lyon",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            4.83565899999996,45.764043,0
+          "
+              }
+            },
+            {
+              "name": "Strasbourg",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            7.75211130000002,48.5734053,0
+          "
+              }
+            },
+            {
+              "name": "Dijon",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            5.04147999999998,47.322047,0
+          "
+              }
+            },
+            {
+              "name": "Reims",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            4.03169600000001,49.258329,0
+          "
+              }
+            },
+            {
+              "name": "Metz",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            6.17571559999999,49.1193089,0
+          "
+              }
+            },
+            {
+              "name": "Lille",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            3.05725600000005,50.62925,0
+          "
+              }
+            },
+            {
+              "name": "Verona",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            10.9916215000001,45.4383842,0
+          "
+              }
+            },
+            {
+              "name": "Venice",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            12.3155151,45.4408474,0
+          "
+              }
+            },
+            {
+              "name": "Milan",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            9.18592430000001,45.4654219,0
+          "
+              }
+            },
+            {
+              "name": "Turin",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            7.68685649999998,45.070312,0
+          "
+              }
+            },
+            {
+              "name": "Geneva",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            6.14315769999996,46.2043907,0
+          "
+              }
+            },
+            {
+              "name": "Bern",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            7.44744679999997,46.9479739,0
+          "
+              }
+            },
+            {
+              "name": "Zürich",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            8.54169400000001,47.3768866,0
+          "
+              }
+            },
+            {
+              "name": "Innsbruck",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            11.4041024000001,47.2692124,0
+          "
+              }
+            },
+            {
+              "name": "Salzburg",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            13.05501,47.80949,0
+          "
+              }
+            },
+            {
+              "name": "Vienna",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            16.3738189000001,48.2081743,0
+          "
+              }
+            },
+            {
+              "name": "Graz",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            15.4395039999999,47.070714,0
+          "
+              }
+            },
+            {
+              "name": "Linz",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            14.28583,48.30694,0
+          "
+              }
+            },
+            {
+              "name": "Klagenfurt",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            14.3122246,46.6364598,0
+          "
+              }
+            },
+            {
+              "name": "Bratislava",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            17.1077477,48.1485965,0
+          "
+              }
+            },
+            {
+              "name": "Prague",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            14.4378005,50.0755381,0
+          "
+              }
+            },
+            {
+              "name": "Brno",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            16.6068371,49.1950602,0
+          "
+              }
+            },
+            {
+              "name": "Wrocław",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            17.0385376,51.1078852,0
+          "
+              }
+            },
+            {
+              "name": "Szczecin",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            14.5528116,53.4285438,0
+          "
+              }
+            },
+            {
+              "name": "Poznań",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            16.9251681000001,52.406374,0
+          "
+              }
+            },
+            {
+              "name": "Stuttgart",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            9.18293210000002,48.7758459,0
+          "
+              }
+            },
+            {
+              "name": "Munich",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            11.5819806,48.1351253,0
+          "
+              }
+            },
+            {
+              "name": "Mannheim",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            8.46603949999997,49.4874592,0
+          "
+              }
+            },
+            {
+              "name": "Frankfurt",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            8.68212670000003,50.1109221,0
+          "
+              }
+            },
+            {
+              "name": "Dortmund",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            7.46529810000004,51.5135872,0
+          "
+              }
+            },
+            {
+              "name": "Düsseldorf",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            6.77345560000003,51.2277411,0
+          "
+              }
+            },
+            {
+              "name": "Cologne",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            6.96027860000004,50.937531,0
+          "
+              }
+            },
+            {
+              "name": "Duisburg",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            6.76232930000003,51.4344079,0
+          "
+              }
+            },
+            {
+              "name": "Hanover",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            9.73201040000004,52.3758916,0
+          "
+              }
+            },
+            {
+              "name": "Hamburg",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            9.99368179999999,53.5510846,0
+          "
+              }
+            },
+            {
+              "name": "Bremen",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            8.80169369999999,53.0792962,0
+          "
+              }
+            },
+            {
+              "name": "Berlin",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            13.404954,52.5200066,0
+          "
+              }
+            },
+            {
+              "name": "Dresden",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            13.7372621,51.0504088,0
+          "
+              }
+            },
+            {
+              "name": "Kassel",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            9.47974610000006,51.3127114,0
+          "
+              }
+            },
+            {
+              "name": "Magdeburg",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            11.6276237,52.1205333,0
+          "
+              }
+            },
+            {
+              "name": "Leipzig",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            12.3730747,51.3396955,0
+          "
+              }
+            },
+            {
+              "name": "Rostock",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            12.0991466,54.0924406,0
+          "
+              }
+            },
+            {
+              "name": "Nuremberg",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            11.0796553,49.4254092,0
+          "
+              }
+            },
+            {
+              "name": "Osnabrück",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            8.04717879999998,52.2799112,0
+          "
+              }
+            },
+            {
+              "name": "Kiel",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            10.1227652,54.3232927,0
+          "
+              }
+            },
+            {
+              "name": "Erfurt",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            11.0298799,50.9847679,0
+          "
+              }
+            },
+            {
+              "name": "Travemünde",
+              "styleUrl": "#icon-1899-757575-nodesc",
+              "Point": {
+                "coordinates": "
+            10.8535750999999,53.9600008,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ETS2 - Going East!",
+          "Placemark": [
+            {
+              "name": "Budapest",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            19.0402349999999,47.497912,0
+          "
+              }
+            },
+            {
+              "name": "Debrecen",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            21.6273123,47.5316049,0
+          "
+              }
+            },
+            {
+              "name": "Pécs",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            18.232266,46.0727345,0
+          "
+              }
+            },
+            {
+              "name": "Szeged",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            20.1414253,46.2530102,0
+          "
+              }
+            },
+            {
+              "name": "Banská Bystrica",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            19.1461917,48.736277,0
+          "
+              }
+            },
+            {
+              "name": "Košice",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            21.2610746,48.7163857,0
+          "
+              }
+            },
+            {
+              "name": "Katowice",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            19.0237815,50.2648919,0
+          "
+              }
+            },
+            {
+              "name": "Ostrava",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            18.2625243,49.8209226,0
+          "
+              }
+            },
+            {
+              "name": "Kraków",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            19.9449799,50.0646501,0
+          "
+              }
+            },
+            {
+              "name": "Warsaw",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            21.0122287,52.2296756,0
+          "
+              }
+            },
+            {
+              "name": "Łódź",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            19.4559833000001,51.7592485,0
+          "
+              }
+            },
+            {
+              "name": "Gdańsk",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            18.6466384,54.3520252,0
+          "
+              }
+            },
+            {
+              "name": "Bialystok",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            23.1688403000001,53.1324886,0
+          "
+              }
+            },
+            {
+              "name": "Lublin",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            22.5684463,51.2464536,0
+          "
+              }
+            },
+            {
+              "name": "Olsztyn",
+              "styleUrl": "#icon-1899-A52714-nodesc",
+              "Point": {
+                "coordinates": "
+            20.4801193000001,53.778422,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ETS2 - Scandinavia",
+          "Placemark": [
+            {
+              "name": "Esbjerg",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            8.45940500000006,55.476466,0
+          "
+              }
+            },
+            {
+              "name": "Odense",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            10.40237,55.403756,0
+          "
+              }
+            },
+            {
+              "name": "Copenhagen",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            12.5683371,55.6760968,0
+          "
+              }
+            },
+            {
+              "name": "Aalborg",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            9.92174699999998,57.0488195,0
+          "
+              }
+            },
+            {
+              "name": "Gedser",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            11.931194,54.574422,0
+          "
+              }
+            },
+            {
+              "name": "Hirtshals",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            9.96683789999997,57.586953,0
+          "
+              }
+            },
+            {
+              "name": "Frederikshavn",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            10.5210059999999,57.442711,0
+          "
+              }
+            },
+            {
+              "name": "Bergen",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            5.32205440000007,60.3912628,0
+          "
+              }
+            },
+            {
+              "name": "Stavanger",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            5.73310730000003,58.9699756,0
+          "
+              }
+            },
+            {
+              "name": "Kristiansand",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            8.01820640000005,58.1599119,0
+          "
+              }
+            },
+            {
+              "name": "Oslo",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            10.7522454,59.9138688,0
+          "
+              }
+            },
+            {
+              "name": "Malmö",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            13.003822,55.604981,0
+          "
+              }
+            },
+            {
+              "name": "Göteborg",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            11.9713569,57.7372915,0
+          "
+              }
+            },
+            {
+              "name": "Helsingborg",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            12.6945121,56.0464674,0
+          "
+              }
+            },
+            {
+              "name": "Trelleborg",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            13.1574231,55.3762427,0
+          "
+              }
+            },
+            {
+              "name": "Karlskrona",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            15.5869,56.161224,0
+          "
+              }
+            },
+            {
+              "name": "Kalmar",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            16.356779,56.6634447,0
+          "
+              }
+            },
+            {
+              "name": "Växjö",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            14.8058522,56.8790044,0
+          "
+              }
+            },
+            {
+              "name": "Jönköping",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            14.1617876,57.7826137,0
+          "
+              }
+            },
+            {
+              "name": "Linköping",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            15.6213726999999,58.410807,0
+          "
+              }
+            },
+            {
+              "name": "Södertälje",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            17.625689,59.195363,0
+          "
+              }
+            },
+            {
+              "name": "Nynäshamn",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            17.9465289,58.902926,0
+          "
+              }
+            },
+            {
+              "name": "Uppsala",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            17.6389267,59.8585638,0
+          "
+              }
+            },
+            {
+              "name": "Västerås",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            16.5448091000001,59.6099005,0
+          "
+              }
+            },
+            {
+              "name": "Örebro",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            15.2134105,59.2752626,0
+          "
+              }
+            },
+            {
+              "name": "Stockholm",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            18.0685808000001,59.3293235,0
+          "
+              }
+            },
+            {
+              "name": "Kapellskär",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            19.06578,59.71895,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ATS",
+          "Placemark": [
+            {
+              "name": "Los Angeles",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -118.2436849,34.0522342,0
+          "
+              }
+            },
+            {
+              "name": "San Diego",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -117.1610838,32.715738,0
+          "
+              }
+            },
+            {
+              "name": "Carlsbad",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -117.3505939,33.1580933,0
+          "
+              }
+            },
+            {
+              "name": "El Centro",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -115.5630514,32.792,0
+          "
+              }
+            },
+            {
+              "name": "Barstow",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -117.0172826,34.8957957,0
+          "
+              }
+            },
+            {
+              "name": "Oxnard",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.1770516,34.1975048,0
+          "
+              }
+            },
+            {
+              "name": "Santa Maria",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -120.4357191,34.9530337,0
+          "
+              }
+            },
+            {
+              "name": "Santa Cruz",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.0307963,36.9741171,0
+          "
+              }
+            },
+            {
+              "name": "San Francisco",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.4194155,37.7749295,0
+          "
+              }
+            },
+            {
+              "name": "Oakland",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.2711137,37.8043637,0
+          "
+              }
+            },
+            {
+              "name": "Oakdale",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -120.8471545,37.7665947,0
+          "
+              }
+            },
+            {
+              "name": "Bakersfield",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.0187125,35.3732921,0
+          "
+              }
+            },
+            {
+              "name": "San Rafael",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.5310874,37.9735346,0
+          "
+              }
+            },
+            {
+              "name": "Eureka",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -124.1636729,40.8020712,0
+          "
+              }
+            },
+            {
+              "name": "Sacramento",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -121.4943996,38.5815719,0
+          "
+              }
+            },
+            {
+              "name": "Huron",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -120.1029177,36.2027308,0
+          "
+              }
+            },
+            {
+              "name": "Fresno",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.7725868,36.7468422,0
+          "
+              }
+            },
+            {
+              "name": "Truckee",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -120.1832533,39.327962,0
+          "
+              }
+            },
+            {
+              "name": "Hornbrook",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.5558584,41.9101394,0
+          "
+              }
+            },
+            {
+              "name": "Redding",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.3916754,40.5865396,0
+          "
+              }
+            },
+            {
+              "name": "Stockton",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -121.2907796,37.9577016,0
+          "
+              }
+            },
+            {
+              "name": "Primm",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -115.3880456,35.6123359,0
+          "
+              }
+            },
+            {
+              "name": "Las Vegas",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -115.1398296,36.1699412,0
+          "
+              }
+            },
+            {
+              "name": "Pioche",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -114.4516203,37.9298739,0
+          "
+              }
+            },
+            {
+              "name": "Tonopah",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -117.2305861,38.069211,0
+          "
+              }
+            },
+            {
+              "name": "Ely",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -114.8886296,39.2474393,0
+          "
+              }
+            },
+            {
+              "name": "Elko",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -115.7631232,40.8324211,0
+          "
+              }
+            },
+            {
+              "name": "Jackpot",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -114.6724061,41.9841401,0
+          "
+              }
+            },
+            {
+              "name": "Reno",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.8138027,39.5296329,0
+          "
+              }
+            },
+            {
+              "name": "Carson City",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.7674034,39.1637984,0
+          "
+              }
+            },
+            {
+              "name": "Winnemucca",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -117.7356849,40.9729584,0
+          "
+              }
+            },
+            {
+              "name": "Ukiah",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -123.2077831,39.1501709,0
+          "
+              }
+            },
+            {
+              "name": "Yuma",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -114.6276916,32.6926512,0
+          "
+              }
+            },
+            {
+              "name": "Phoenix",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -112.0740373,33.4483771,0
+          "
+              }
+            },
+            {
+              "name": "Tucson",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -110.926479,32.2217429,0
+          "
+              }
+            },
+            {
+              "name": "Kingman",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -114.0530065,35.189443,0
+          "
+              }
+            },
+            {
+              "name": "Sierra Vista",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -110.2772856,31.5455001,0
+          "
+              }
+            },
+            {
+              "name": "Nogales",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -110.9342532,31.3403775,0
+          "
+              }
+            },
+            {
+              "name": "San Simon",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -109.2268305,32.2676022,0
+          "
+              }
+            },
+            {
+              "name": "Camp Verde",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -111.8543178,34.5636358,0
+          "
+              }
+            },
+            {
+              "name": "Holbrook",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -110.1581768,34.9022482,0
+          "
+              }
+            },
+            {
+              "name": "Grand Canyon Village",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -112.1401108,36.0544445,0
+          "
+              }
+            },
+            {
+              "name": "Show Low",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -110.0298327,34.2542084,0
+          "
+              }
+            },
+            {
+              "name": "Page",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -111.4558333,36.9147222,0
+          "
+              }
+            },
+            {
+              "name": "Kayenta",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -110.2545767,36.7277769,0
+          "
+              }
+            },
+            {
+              "name": "Flagstaff",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -111.651302,35.1982836,0
+          "
+              }
+            },
+            {
+              "name": "Ehrenberg",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -114.5252322,33.6041914,0
+          "
+              }
+            },
+            {
+              "name": "Clifton",
+              "styleUrl": "#icon-1899-E65100-nodesc",
+              "Point": {
+                "coordinates": "
+            -109.2961826,33.0508966,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ETS2 - Vive la France !",
+          "Placemark": [
+            {
+              "name": "Le Havre",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            0.107929000000013,49.49437,0
+          "
+              }
+            },
+            {
+              "name": "Rennes",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -1.67779259999998,48.117266,0
+          "
+              }
+            },
+            {
+              "name": "Roscoff",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -3.98532499999999,48.726199,0
+          "
+              }
+            },
+            {
+              "name": "Brest",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -4.48607600000003,48.390394,0
+          "
+              }
+            },
+            {
+              "name": "Nantes",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -1.55362100000002,47.218371,0
+          "
+              }
+            },
+            {
+              "name": "Le Mans",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            0.19955600000003,48.00611,0
+          "
+              }
+            },
+            {
+              "name": "La Rochelle",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -1.15113900000006,46.160329,0
+          "
+              }
+            },
+            {
+              "name": "Clermont-Ferrand",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            3.08702500000004,45.777222,0
+          "
+              }
+            },
+            {
+              "name": "Bourges",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            2.39878199999998,47.081012,0
+          "
+              }
+            },
+            {
+              "name": "Nice",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            7.26195319999999,43.7101728,0
+          "
+              }
+            },
+            {
+              "name": "Marseille",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            5.36977999999999,43.296482,0
+          "
+              }
+            },
+            {
+              "name": "Montpellier",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            3.87671599999999,43.610769,0
+          "
+              }
+            },
+            {
+              "name": "Toulouse",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            1.444209,43.604652,0
+          "
+              }
+            },
+            {
+              "name": "Bordeaux",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -0.579179999999951,44.837789,0
+          "
+              }
+            },
+            {
+              "name": "Limoges",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            1.26110500000004,45.833619,0
+          "
+              }
+            },
+            {
+              "name": "Paluel",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            0.629064999999969,49.832363,0
+          "
+              }
+            },
+            {
+              "name": "Saint-Alban-du-Rhône",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            4.75555899999995,45.427008,0
+          "
+              }
+            },
+            {
+              "name": "Civaux",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            0.664865999999961,46.444209,0
+          "
+              }
+            },
+            {
+              "name": "Golfech",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            0.851985000000013,44.114113,0
+          "
+              }
+            },
+            {
+              "name": "Saint-Laurent-Nouan",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            1.60458399999993,47.717956,0
+          "
+              }
+            },
+            {
+              "name": "Bonifacio",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            9.15926899999999,41.387174,0
+          "
+              }
+            },
+            {
+              "name": "Porto-Vecchio",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            9.27831100000003,41.591369,0
+          "
+              }
+            },
+            {
+              "name": "Ajaccio",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            8.73863499999993,41.919229,0
+          "
+              }
+            },
+            {
+              "name": "Calvi",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            8.75722199999996,42.567651,0
+          "
+              }
+            },
+            {
+              "name": "L'Île-Rousse",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            8.93704600000001,42.63651,0
+          "
+              }
+            },
+            {
+              "name": "Bastia",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            9.45088099999998,42.697283,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ATS - New Mexico",
+          "Placemark": [
+            {
+              "name": "Albuquerque",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -106.6055534,35.0853336,0
+          "
+              }
+            },
+            {
+              "name": "Santa Fe",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -105.937799,35.6869752,0
+          "
+              }
+            },
+            {
+              "name": "Roswell",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -104.5230242,33.3942655,0
+          "
+              }
+            },
+            {
+              "name": "Farmington",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -108.2186856,36.7280583,0
+          "
+              }
+            },
+            {
+              "name": "Raton",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -104.4391532,36.9033581,0
+          "
+              }
+            },
+            {
+              "name": "Gallup",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -108.7425843,35.5280783,0
+          "
+              }
+            },
+            {
+              "name": "Socorro",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -106.8914159,34.0583995,0
+          "
+              }
+            },
+            {
+              "name": "Las Cruces",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -106.7636538,32.3199396,0
+          "
+              }
+            },
+            {
+              "name": "Tucumcari",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -103.7249662,35.171723,0
+          "
+              }
+            },
+            {
+              "name": "Clovis",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -103.2052272,34.4047987,0
+          "
+              }
+            },
+            {
+              "name": "Alamogordo",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -105.960265,32.8995325,0
+          "
+              }
+            },
+            {
+              "name": "Artesia",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -104.4032962,32.8423345,0
+          "
+              }
+            },
+            {
+              "name": "Carlsbad",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -104.2288375,32.4206736,0
+          "
+              }
+            },
+            {
+              "name": "Hobbs",
+              "styleUrl": "#icon-1899-FFD600-nodesc",
+              "Point": {
+                "coordinates": "
+            -103.1360403,32.7026116,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ETS2 - Italia",
+          "Placemark": [
+            {
+              "name": "Genoa",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            8.94625599999995,44.4056499,0
+          "
+              }
+            },
+            {
+              "name": "Suzzara",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            10.742497,44.9918729,0
+          "
+              }
+            },
+            {
+              "name": "Parma",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            10.3279036,44.801485,0
+          "
+              }
+            },
+            {
+              "name": "Bologna",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            11.3426162000001,44.494887,0
+          "
+              }
+            },
+            {
+              "name": "Florence",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            11.2558136,43.7695604,0
+          "
+              }
+            },
+            {
+              "name": "Livorno",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            10.3105674,43.548473,0
+          "
+              }
+            },
+            {
+              "name": "Ancona",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            13.518915,43.6158299,0
+          "
+              }
+            },
+            {
+              "name": "Terni",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            12.6426604000001,42.5636168,0
+          "
+              }
+            },
+            {
+              "name": "Rome",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            12.4963655,41.9027835,0
+          "
+              }
+            },
+            {
+              "name": "Pescara",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            14.2160898,42.4617902,0
+          "
+              }
+            },
+            {
+              "name": "Cassino",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            13.8333775999999,41.4907889,0
+          "
+              }
+            },
+            {
+              "name": "Naples",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            14.2681244,40.8517746,0
+          "
+              }
+            },
+            {
+              "name": "Bari",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            16.8718715,41.1171432,0
+          "
+              }
+            },
+            {
+              "name": "Taranto",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            17.2470303,40.4643606,0
+          "
+              }
+            },
+            {
+              "name": "Catanzaro",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            16.5876516000001,38.9097919,0
+          "
+              }
+            },
+            {
+              "name": "Villa San Giovanni",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            15.6362381,38.2167458,0
+          "
+              }
+            },
+            {
+              "name": "Palermo",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            13.3612671,38.1156879,0
+          "
+              }
+            },
+            {
+              "name": "Messina",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            15.5540152,38.1938137,0
+          "
+              }
+            },
+            {
+              "name": "Catania",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            15.0830304,37.5078772,0
+          "
+              }
+            },
+            {
+              "name": "Olbia",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            9.49644290000003,40.9235764,0
+          "
+              }
+            },
+            {
+              "name": "Sassari",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            8.55568259999995,40.7259269,0
+          "
+              }
+            },
+            {
+              "name": "Cagliari",
+              "styleUrl": "#icon-1899-0288D1-nodesc",
+              "Point": {
+                "coordinates": "
+            9.12166130000003,39.2238411,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ATS - Oregon",
+          "Placemark": [
+            {
+              "name": "Astoria",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -123.8312534,46.1878841,0
+          "
+              }
+            },
+            {
+              "name": "Portland",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.6587185,45.5122308,0
+          "
+              }
+            },
+            {
+              "name": "The Dalles",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -121.1786823,45.5945645,0
+          "
+              }
+            },
+            {
+              "name": "Pendleton",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -118.7885967,45.672075,0
+          "
+              }
+            },
+            {
+              "name": "Newport",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -124.0534505,44.6367836,0
+          "
+              }
+            },
+            {
+              "name": "Salem",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -123.0350963,44.9428975,0
+          "
+              }
+            },
+            {
+              "name": "Eugene",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -123.0867536,44.0520691,0
+          "
+              }
+            },
+            {
+              "name": "Bend",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -121.3153096,44.0581728,0
+          "
+              }
+            },
+            {
+              "name": "Burns",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.0541032,43.5862606,0
+          "
+              }
+            },
+            {
+              "name": "Ontario",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -116.9629378,44.0265525,0
+          "
+              }
+            },
+            {
+              "name": "Medford",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.8755949,42.3265152,0
+          "
+              }
+            },
+            {
+              "name": "Klamath Falls",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -121.7816704,42.224867,0
+          "
+              }
+            },
+            {
+              "name": "Lakeview",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -120.345792,42.1887721,0
+          "
+              }
+            },
+            {
+              "name": "Coos Bay",
+              "styleUrl": "#icon-1899-1A237E-nodesc",
+              "Point": {
+                "coordinates": "
+            -124.2178903,43.3665007,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ETS2 - Beyond the Baltic Sea, Road to the Black Sea",
+          "Placemark": [
+            {
+              "name": "Tampere",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            23.7609535,61.4977524,0
+          "
+              }
+            },
+            {
+              "name": "Pori",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            21.7974179,61.4851393,0
+          "
+              }
+            },
+            {
+              "name": "Lahti",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            25.6612096,60.9826749,0
+          "
+              }
+            },
+            {
+              "name": "Kouvola",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            26.7041601999999,60.8678835,0
+          "
+              }
+            },
+            {
+              "name": "Kotka",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            26.9459403,60.4665666,0
+          "
+              }
+            },
+            {
+              "name": "Turku",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            22.2666302,60.4518126,0
+          "
+              }
+            },
+            {
+              "name": "Helsinki",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            24.9383791,60.1698557,0
+          "
+              }
+            },
+            {
+              "name": "Saint Petersburg",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            30.3350986,59.9342802,0
+          "
+              }
+            },
+            {
+              "name": "Vyborg",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            28.7571571,60.7139529,0
+          "
+              }
+            },
+            {
+              "name": "Narva",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            28.1790751,59.3796931,0
+          "
+              }
+            },
+            {
+              "name": "Luga",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            29.8505901999999,58.740819,0
+          "
+              }
+            },
+            {
+              "name": "Tallinn",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            24.7535746999999,59.4369608,0
+          "
+              }
+            },
+            {
+              "name": "Naantali",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            22.0250874,60.4660876,0
+          "
+              }
+            },
+            {
+              "name": "Kunda",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            26.5596554,59.4903818,0
+          "
+              }
+            },
+            {
+              "name": "Paldiski",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            24.077826,59.333055,0
+          "
+              }
+            },
+            {
+              "name": "Tartu",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            26.7290383,58.377983,0
+          "
+              }
+            },
+            {
+              "name": "Pärnu",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            24.4952894,58.3916898,0
+          "
+              }
+            },
+            {
+              "name": "Pskov",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            28.3344735000001,57.8166994,0
+          "
+              }
+            },
+            {
+              "name": "Valmiera",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            25.4263618,57.5384659,0
+          "
+              }
+            },
+            {
+              "name": "Ventspils",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            21.5647066,57.3937216,0
+          "
+              }
+            },
+            {
+              "name": "Riga",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            24.1051864999999,56.9496487,0
+          "
+              }
+            },
+            {
+              "name": "Rēzekne",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            27.3331357,56.5099223,0
+          "
+              }
+            },
+            {
+              "name": "Liepāja",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            21.010806,56.5046678,0
+          "
+              }
+            },
+            {
+              "name": "Daugavpils",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            26.5361789999999,55.874736,0
+          "
+              }
+            },
+            {
+              "name": "Šiauliai",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            23.3136823,55.9349085,0
+          "
+              }
+            },
+            {
+              "name": "Panevėžys",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            24.3574774,55.7347915,0
+          "
+              }
+            },
+            {
+              "name": "Utena",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            25.609385,55.5000404,0
+          "
+              }
+            },
+            {
+              "name": "Klaipėda",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            21.1442795,55.7032948,0
+          "
+              }
+            },
+            {
+              "name": "Kaunas",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            23.9035965,54.8985207,0
+          "
+              }
+            },
+            {
+              "name": "Vilnius",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            25.2796514,54.6871555,0
+          "
+              }
+            },
+            {
+              "name": "Kaliningrad",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            20.4522144,54.7104264,0
+          "
+              }
+            },
+            {
+              "name": "Mažeikiai",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            22.341468,56.3092439,0
+          "
+              }
+            },
+            {
+              "name": "Sosnovy Bor",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            29.0856479,59.8696729,0
+          "
+              }
+            },
+            {
+              "name": "Lovisa",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            26.2278097999999,60.4578742,0
+          "
+              }
+            },
+            {
+              "name": "Olkiluoto",
+              "styleUrl": "#icon-1899-AFB42B-nodesc",
+              "Point": {
+                "coordinates": "
+            21.4753106000001,61.2363745,0
+          "
+              }
+            },
+            {
+              "name": "Iași",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            27.6014418,47.1584549,0
+          "
+              }
+            },
+            {
+              "name": "Cluj-Napoca",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            23.6236352999999,46.7712101,0
+          "
+              }
+            },
+            {
+              "name": "Bacău",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            26.9145748,46.5670437,0
+          "
+              }
+            },
+            {
+              "name": "Târgu Mureș",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            24.5514392,46.5385862,0
+          "
+              }
+            },
+            {
+              "name": "Hunedoara",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            22.9072331,45.7678128,0
+          "
+              }
+            },
+            {
+              "name": "Brașov",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            25.6011977000001,45.6579755,0
+          "
+              }
+            },
+            {
+              "name": "Galați",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            28.0079945,45.4353208,0
+          "
+              }
+            },
+            {
+              "name": "Timișoara",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            21.2086793,45.7488716,0
+          "
+              }
+            },
+            {
+              "name": "Resita",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            21.8821033,45.3049703,0
+          "
+              }
+            },
+            {
+              "name": "Pitești",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            24.8691824,44.8564798,0
+          "
+              }
+            },
+            {
+              "name": "Craiova",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            23.7948807,44.3301785,0
+          "
+              }
+            },
+            {
+              "name": "Cernavodă",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            28.0306028,44.3276037,0
+          "
+              }
+            },
+            {
+              "name": "Călărași",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            27.3137439,44.2085144,0
+          "
+              }
+            },
+            {
+              "name": "Bucharest",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            26.1025384,44.4267674,0
+          "
+              }
+            },
+            {
+              "name": "Constanța",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            28.6348138,44.1598013,0
+          "
+              }
+            },
+            {
+              "name": "Mangalia",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            28.5741496000001,43.8152436,0
+          "
+              }
+            },
+            {
+              "name": "Ruse",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            25.9656554000001,43.8355713,0
+          "
+              }
+            },
+            {
+              "name": "Pleven",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            24.6066847,43.4170423,0
+          "
+              }
+            },
+            {
+              "name": "Kozloduy",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            23.7246153999999,43.7755615,0
+          "
+              }
+            },
+            {
+              "name": "Varna",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            27.9147333,43.2140504,0
+          "
+              }
+            },
+            {
+              "name": "Sofia",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            23.3218675000001,42.6977082,0
+          "
+              }
+            },
+            {
+              "name": "Veliko Tarnovo",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            25.6171514,43.0756739,0
+          "
+              }
+            },
+            {
+              "name": "Pirdop",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            24.177048,42.7033735,0
+          "
+              }
+            },
+            {
+              "name": "Karlovo",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            24.8059393999999,42.641321,0
+          "
+              }
+            },
+            {
+              "name": "Pernik",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            23.0378368,42.6051862,0
+          "
+              }
+            },
+            {
+              "name": "Burgas",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            27.4626361000001,42.5047926,0
+          "
+              }
+            },
+            {
+              "name": "Plovdiv",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            24.7452903999999,42.1354079,0
+          "
+              }
+            },
+            {
+              "name": "Edirne",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            26.5557145,41.6771297,0
+          "
+              }
+            },
+            {
+              "name": "İstanbul",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            28.9783589,41.0082376,0
+          "
+              }
+            },
+            {
+              "name": "Tekirdağ",
+              "styleUrl": "#icon-1899-FF5252-nodesc",
+              "Point": {
+                "coordinates": "
+            27.511674,40.9780919,0
+          "
+              }
+            }
+          ]
+        },
+        {
+          "name": "ATS - Washington, Utah, Idaho, Colorado",
+          "Placemark": [
+            {
+              "name": "Bellingham",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.4786854,48.7519112,0
+          "
+              }
+            },
+            {
+              "name": "Omak",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.5275506,48.4109853,0
+          "
+              }
+            },
+            {
+              "name": "Colville",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -117.9009545,48.5449971,0
+          "
+              }
+            },
+            {
+              "name": "Port Angeles",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -123.4307413,48.118146,0
+          "
+              }
+            },
+            {
+              "name": "Everett",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.2020795,47.9789848,0
+          "
+              }
+            },
+            {
+              "name": "Grand Coulee",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.0120921,47.9391662,0
+          "
+              }
+            },
+            {
+              "name": "Spokane",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -117.4260465,47.6587802,0
+          "
+              }
+            },
+            {
+              "name": "Seattle",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.3320708,47.6062095,0
+          "
+              }
+            },
+            {
+              "name": "Wenatchee",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -120.3103494,47.4234599,0
+          "
+              }
+            },
+            {
+              "name": "Olympia",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.9006951,47.0378741,0
+          "
+              }
+            },
+            {
+              "name": "Aberdeen",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -123.8157218,46.9753708,0
+          "
+              }
+            },
+            {
+              "name": "Tacoma",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.4442906,47.2528768,0
+          "
+              }
+            },
+            {
+              "name": "Yakima",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -120.5058987,46.6020711,0
+          "
+              }
+            },
+            {
+              "name": "Kennewick",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -119.119948,46.2086683,0
+          "
+              }
+            },
+            {
+              "name": "Longview",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.9381672,46.1381676,0
+          "
+              }
+            },
+            {
+              "name": "Vancouver",
+              "styleUrl": "#icon-1899-0F9D58-nodesc",
+              "Point": {
+                "coordinates": "
+            -122.6727305,45.6272259,0
+          "
+              }
+            },
+            {
+              "name": "Logan",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -111.8338359,41.7369803,0
+          "
+              }
+            },
+            {
+              "name": "Ogden",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -111.9738304,41.223,0
+          "
+              }
+            },
+            {
+              "name": "Salt Lake City",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -111.8910474,40.7607793,0
+          "
+              }
+            },
+            {
+              "name": "Vernal",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -109.5287479,40.4555157,0
+          "
+              }
+            },
+            {
+              "name": "Provo",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -111.6585337,40.2338438,0
+          "
+              }
+            },
+            {
+              "name": "Price",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -110.8107148,39.5994095,0
+          "
+              }
+            },
+            {
+              "name": "Salina",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -111.859925,38.9577407,0
+          "
+              }
+            },
+            {
+              "name": "Moab",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -109.5498395,38.5733155,0
+          "
+              }
+            },
+            {
+              "name": "Cedar City",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -113.0618931,37.6774769,0
+          "
+              }
+            },
+            {
+              "name": "St. George",
+              "styleUrl": "#icon-1899-FBC02D-nodesc",
+              "Point": {
+                "coordinates": "
+            -113.5684164,37.0965278,0
+          "
+              }
+            },
+            {
+              "name": "Sandpoint",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -116.553465,48.276577,0
+          "
+              }
+            },
+            {
+              "name": "Coeur d'Alene",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -116.7812225,47.6734632,0
+          "
+              }
+            },
+            {
+              "name": "Lewiston",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -117.001189,46.4004089,0
+          "
+              }
+            },
+            {
+              "name": "Grangeville",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -116.1223654,45.926552,0
+          "
+              }
+            },
+            {
+              "name": "Salmon",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -113.8959008,45.1757547,0
+          "
+              }
+            },
+            {
+              "name": "Ketchum",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -114.3636619,43.6807402,0
+          "
+              }
+            },
+            {
+              "name": "Idaho Falls",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -112.0407584,43.4926607,0
+          "
+              }
+            },
+            {
+              "name": "Boise",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -116.2023137,43.6150186,0
+          "
+              }
+            },
+            {
+              "name": "Nampa",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -116.55978,43.5788175,0
+          "
+              }
+            },
+            {
+              "name": "Pocatello",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -112.4506191,42.8621042,0
+          "
+              }
+            },
+            {
+              "name": "Twin Falls",
+              "styleUrl": "#icon-1899-880E4F-nodesc",
+              "Point": {
+                "coordinates": "
+            -114.4700518,42.5558381,0
+          "
+              }
+            },
+            {
+              "name": "Durango",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -107.8800667,37.27528,0
+          "
+              }
+            },
+            {
+              "name": "Alamosa",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -105.8700214,37.4694491,0
+          "
+              }
+            },
+            {
+              "name": "Lamar",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -102.6207496,38.0872307,0
+          "
+              }
+            },
+            {
+              "name": "Sterling",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -103.207709,40.6255415,0
+          "
+              }
+            },
+            {
+              "name": "Fort Collins",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -105.084423,40.5852602,0
+          "
+              }
+            },
+            {
+              "name": "Steamboat Springs",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -106.8317158,40.4849769,0
+          "
+              }
+            },
+            {
+              "name": "Rangely",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -108.8048292,40.0874759,0
+          "
+              }
+            },
+            {
+              "name": "Denver",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -104.990251,39.7392358,0
+          "
+              }
+            },
+            {
+              "name": "Grand Junction",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -108.5506486,39.0638705,0
+          "
+              }
+            },
+            {
+              "name": "Montrose",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -107.8761738,38.4783198,0
+          "
+              }
+            },
+            {
+              "name": "Colorado Springs",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -104.8213634,38.8338816,0
+          "
+              }
+            },
+            {
+              "name": "Pueblo",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -104.6091409,38.2544472,0
+          "
+              }
+            },
+            {
+              "name": "Burlington",
+              "styleUrl": "#icon-1899-3949AB-nodesc",
+              "Point": {
+                "coordinates": "
+            -102.2693563,39.3061082,0
+          "
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

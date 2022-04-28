@@ -1,0 +1,21 @@
+/* Theme color */
+$--main-color-primary: #212529 !default;
+$--main-color-secondary: #ffcd00 !default;
+$--color-main-grey: #f2f2f2 !default;
+$--color-primary: #ff0000 !default;
+
+/* Border */
+
+$--main-border: 1px solid #797979;
+
+/* Fonts variable */
+$--x-small-font: 13px !default;
+$--small-font: 14px !default;
+$--regular-font: 15px !default;
+$--large-font: 16px !default;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import '~element-ui/packages/theme-chalk/src/common/var';
+@import '~element-ui/packages/theme-chalk/src/mixins/mixins';

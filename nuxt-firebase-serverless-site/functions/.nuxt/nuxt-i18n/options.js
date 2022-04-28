@@ -1,0 +1,29 @@
+export const vueI18n = {"messages":{"en":{"menu":{"lang":"English","logIn":"Log in","logOut":"Log out","register":"Register","sensors":"Sensors","lights":"Lights","alerts":"Alerts"},"login":{"login":"Sign in","username":"Username","pass":"Password","forgot":"Forgot password","loginButton":"Sign in","microsoft":"Microsoft 365"}},"fr":{"menu":{"lang":"Français","logIn":"Se connecter","logOut":"Se déconnecter","register":"S'enregistrer","sensors":"Capteurs","lights":"Lumières","alerts":"Alertes"},"login":{"login":"Me connecter","username":"Nom d'utilisateur","pass":"Mot de passe","forgot":"Mot de passe oublié","loginButton":"Connexion","microsoft":"Microsoft 365"}}}}
+export const vueI18nLoader = false
+export const locales = [{"code":"fr","name":"Français","iso":"fr-FR"},{"code":"en","name":"English","iso":"en-US"}]
+export const defaultLocale = 'fr'
+export const routesNameSeparator = '___'
+export const defaultLocaleRouteNameSuffix = 'default'
+export const strategy = 'prefix_except_default'
+export const lazy = false
+export const langDir = null
+export const rootRedirect = null
+export const detectBrowserLanguage = {"useCookie":true,"cookieDomain":null,"cookieKey":"i18n_redirected","alwaysRedirect":false,"fallbackLocale":""}
+export const differentDomains = false
+export const seo = false
+export const baseUrl = ''
+export const vuex = {"moduleName":"i18n","syncLocale":false,"syncMessages":false,"syncRouteParams":true}
+export const parsePages = false
+export const pages = {}
+export const beforeLanguageSwitch = () => null
+export const onLanguageSwitched = () => null
+export const IS_UNIVERSAL_MODE = true
+export const MODULE_NAME = 'nuxt-i18n'
+export const LOCALE_CODE_KEY = 'code'
+export const LOCALE_ISO_KEY = 'iso'
+export const LOCALE_DOMAIN_KEY = 'domain'
+export const LOCALE_FILE_KEY = 'file'
+export const STRATEGIES = {"PREFIX":"prefix","PREFIX_EXCEPT_DEFAULT":"prefix_except_default","PREFIX_AND_DEFAULT":"prefix_and_default","NO_PREFIX":"no_prefix"}
+export const COMPONENT_OPTIONS_KEY = 'nuxtI18n'
+export const localeCodes = ["fr","en"]
+export const trailingSlash = undefined

@@ -1,0 +1,9 @@
+{
+  "lang": "Français",
+  "logIn": "Se connecter",
+  "logOut": "Se déconnecter",
+  "register": "S'enregistrer",
+  "sensors":"Capteurs",
+  "lights":"Lumières",
+  "alerts":"Alertes"
+}

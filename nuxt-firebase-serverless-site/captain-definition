@@ -1,0 +1,19 @@
+{
+	"schemaVersion" :2 ,
+		"dockerfileLines": [
+			"FROM node:12.20-alpine",
+			"RUN mkdir -p /usr/src/app",
+			"COPY ./package.json /usr/src/app/",
+			"RUN ls",
+			"RUN apk update && apk add ca-certificates wget && update-ca-certificates && apk add --no-cache git curl jq",
+			"RUN npm install && npm cache clean --force",
+			"COPY . /usr/src/app",
+			"WORKDIR /usr/src/app",
+			"RUN yarn",
+			"RUN yarn build",
+			"ENV NODE_ENV production",
+			"ENV PORT 5000",
+			"EXPOSE 5000",
+			"CMD [ \"yarn\", \"start\" ]"
+		]
+}

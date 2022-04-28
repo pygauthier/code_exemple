@@ -1,0 +1,25 @@
+//  -----------------------------
+//  Accessibility
+//  -----------------------------
+*,
+*:focus {
+    outline: none;
+}
+[data-state='keydown'] {
+    *:focus {
+        box-shadow: 0 0 0 1px $--color-white, 0 0 0 3px $--color-black, 0 0 0 4px $--color-white !important;
+    }
+}
+.skip-menu-link,
+.skip-content-link {
+    @include visuallyhidden;
+    z-index: 100;
+    position: fixed;
+    top: 6px;
+    left: 6px;
+    background-color: $--color-white;
+    // Reset style on focus
+    &:focus {
+        @include visuallyhidden(false);
+    }
+}

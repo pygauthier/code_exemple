@@ -1,0 +1,79 @@
+//  -----------------------------
+//  Mixins
+//  -----------------------------
+
+// Clearfix
+@mixin clearfix {
+    &:after {
+        clear: both;
+    }
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+        line-height: 0;
+    }
+}
+
+// Visuallyhidden
+@mixin visuallyhidden($hide: true) {
+    @if $hide == true {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+    } @else {
+        position: static;
+        overflow: visible;
+        clip: auto;
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@mixin headings {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+        @content;
+    }
+}
+/* stylelint-disable */
+// REM font-size
+@mixin rem-fontsize($size) {
+    font-size: remove-px($size) + px;
+    font-size: rem($size);
+}
+
+// REM line-height
+@mixin rem-lineheight($size) {
+    line-height: remove-px($size) + px;
+    line-height: rem($size);
+}
+
+// REM font-size and line-height
+@mixin rem-typo($font, $line: 1.4) {
+    font-size: remove-px($font) + px;
+    font-size: rem($font);
+    @if ($line == 1.4) {
+        line-height: $line;
+    } @else {
+        line-height: remove-px($line) + px;
+        line-height: rem($line);
+    }
+}
+/* stylelint-enable */
